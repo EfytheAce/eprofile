@@ -169,3 +169,15 @@ font-family: 'Roboto', sans-serif;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+
+#start {
+  font-size: 30px;
+  color: #838487;
+	background-color: White; 
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+}
