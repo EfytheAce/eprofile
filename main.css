@@ -176,7 +176,7 @@ text-align: center;
 
 #start {
   font-size: 30px;
-  color: #838487;
+  color: #706d8e;
 	background-color: White;
   font-family: 'Roboto', sans-serif;
   display: block;
@@ -184,4 +184,24 @@ text-align: center;
   margin-right: auto;
   text-align: center;
   margin-top: 10px;
+}
+
+
+.WIP {
+		 background-image: url("images/WIP.jpg")
+	}
+
+	.WIPT {
+	  font-size: 30px;
+	  color: White;
+	  font-family: 'Roboto', sans-serif;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+		background-color: #5c5f9f;
+	  margin-top: 10px;
+	}
+
+
 }
