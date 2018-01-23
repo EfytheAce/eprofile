@@ -48,7 +48,7 @@ table {
 }
 
 
-/* Custom CSS */
+/* Efram's CSS */
 body {
 background: #838487;
 font-family: "Roboto";
@@ -171,7 +171,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .twitter {
-text-align: center;
+	text-align: center;
 }
 
 #start {
@@ -186,15 +186,14 @@ text-align: center;
   margin-top: 10px;
 }
 
-
 .WIP {
 		 background-image: url("images/WIP.jpg")
 	}
 
-	.WIPT {
-	  font-size: 30px;
-	  color: White;
-	  font-family: 'Roboto', sans-serif;
+.WIPT {
+	font-size: 30px;
+	color: White;
+	 font-family: 'Roboto', sans-serif;
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
@@ -202,6 +201,5 @@ text-align: center;
 		background-color: #5c5f9f;
 	  margin-top: 10px;
 	}
-
 
 }
