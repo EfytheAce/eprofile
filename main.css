@@ -101,6 +101,7 @@ font-family: 'Roboto', sans-serif;
   width: 100%;
   left: 0px;
   font-family: 'Roboto', sans-serif;
+	text-align: right;
 }
 
 #desc {
@@ -187,6 +188,22 @@ font-family: 'Roboto', sans-serif;
 	  text-align: center;
 		background-color: #5c5f9f;
 	  margin-top: 10px;
+	}
+
+	.HP {
+			 background-image: url("images/s8.jpg")
+		}
+
+	#button {
+		font-size: 25px;
+		color: White;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		background-color: Black;
+		padding-left: 200px;
+		padding-right: 200px;
+		margin-right: 1050px;
+		margin-left: 500px;
 	}
 
 }
