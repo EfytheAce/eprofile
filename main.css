@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -48,122 +48,196 @@ table {
 }
 
 
-/* Custom CSS */
-body {
-background: #838487;
-font-family: "Roboto";
+/* Efram's CSS */
+	body {
+		background: #838487;
+		font-family: "Roboto";
+	}
+
+	ul.nav {
+		margin-top: 5px;
+  	margin-bottom: 20px;
+	}
+
+	.nav li a {
+  	margin-top: 0px;
+  	color: #706d8e;
+  	background-color: White;
+	}
+
+	.nav li a:hover {
+  	background-color: #e1e3e8;
+	}
+
+	p {
+		font-size: 25px;
+		color: #ffffff;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.s {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	width: 50%;
+	}
+
+	.intro {
+  	font-size: 50px;
+  	color: #706d8e;
+  	background: #ffffff;
+  	margin: 0 0 0 0;
+  	width: 100%;
+  	left: 0px;
+  	text-align: center;
+  	font-family: 'Roboto', sans-serif;
+	}
+
+	#desc {
+  	font-size: 25px;
+  	color: #ffffff;
+  	font-family: 'Roboto', sans-serif;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
+
+	#logs {
+  	font-size: 25px;
+  	color: #706d8e;
+  	background: #ffffff;
+  	margin: 0px;
+  	width: 25%;
+  	left: 0px;
+  	text-align: center;
+  	font-family: 'Roboto', sans-serif;
+	}
+
+	.text {
+  	font-size: 30px;
+  	color: White;
+  	font-family: 'Roboto', sans-serif;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+  	margin-top: 10px;
+	}
+
+	.c {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	width: 25%;
+	}
+
+	.figure-caption {
+  	color: White;
+  	margin-bottom: 10px;
+	}
+
+	.bottom {
+  	font-size: 20px;
+  	color: #706d8e;
+  	background: #ffffff;
+  	margin: 0 0 0 0;
+		margin-top: 15px;
+		padding: 10px;
+  	width: 100%;
+  	left: 0px;
+  	text-align: center;
+  	font-family: 'Roboto', sans-serif;
+	}
+
+	#start {
+  	font-size: 30px;
+  	color: #706d8e;
+		background-color: White;
+  	font-family: 'Roboto', sans-serif;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+  	margin-top: 10px;
 }
 
-ul.nav {
-  margin-bottom: 20px;
-}
-  
-.nav li a {
-  margin-top: 0px;
-  color: #706d8e;
-  background-color: White;
-}
+	.WIP {
+		 background-image: url("images/WIP.jpg")
+	}
 
-.nav li a:hover {
-  background-color: Grey;
-}
+	.WIPT {
+		font-size: 30px;
+		color: White;
+	 	font-family: 'Roboto', sans-serif;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+		background-color: #5c5f9f;
+	  margin-top: 10px;
+	}
 
-p {
-font-size: 25px;
-color: #ffffff;
-font-family: 'Roboto', sans-serif;
-}
+	.HP {
+			 background-image: url("images/s8.jpg")
+		}
 
-.s {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 75%;
-}
+	#button {
+		font-size: 25px;
+		color: White;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		background-color: Black;
+		padding-left: 200px;
+		padding-right: 200px;
+		margin-right: 1050px;
+		margin-left: 500px;
+	}
 
-#PD {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 250px;
-  height: 500px;
-}
+	.blog-backbone {
+		background-color:#706d8e;
+	}
 
-#intro {
-  font-size: 50px;
-  color: #706d8e;
-  background: #ffffff;
-  margin: 0 0 0 0;
-  width: 100%;
-  left: 0px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
+	.blog-title {
+			font-size: 30px;
+		 	color: #706d8e;
+		 	font-family: 'Roboto', sans-serif;
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+			background-color: White;
+		  margin-top: 10px;
+		}
 
-.sp {
-  font-size: 25px;
-  color: #706d8e;
-  background: #ffffff;
-  margin: 0px;
-  width: 100%;
-  left: 0px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
+		.blog-text {
+			font-size: 30px;
+			color: White;
+		 	font-family: 'Roboto', sans-serif;
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+			background-color: #5c5f9f;
+			margin-top: 10px;
+			}
 
-#desc {
-  font-size: 25px;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+		#blog-intro {
+		  font-size: 50px;
+		  color: #706d8e;
+		  background: White;
+			 margin: 0 0 0 0;
+		  width: 100%;
+		  left: 0px;
+		  text-align: center;
+		  font-family: 'Roboto', sans-serif;
+			}
 
-#logs {
-  font-size: 25px;
-  color: #706d8e;
-  background: #ffffff;
-  margin: 0px;
-  width: 25%;
-  left: 0px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-  
-.text {
-  font-size: 30px;
-  color: White;
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 10px;
+.my-cards .card {
+	margin: 1em auto;
 }
 
-.c {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 25%;
 }
-
-.figure-caption {
-  color: White;
-  margin-bottom: 10px;
-}
-
-
-
-
-
-
-
-
